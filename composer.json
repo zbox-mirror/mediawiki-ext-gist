@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-gist",
+  "name": "cmfstore/mediawiki-ext-gist",
   "type": "mediawiki-extension",
   "description": "MediaWiki GitHub Gist extension.",
   "license": "MIT",
@@ -23,13 +23,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-gist/issues",
-    "source": "https://github.com/cmfstore/mediawiki-gist"
+    "issues": "https://github.com/cmfstore/mediawiki-ext-gist/issues",
+    "source": "https://github.com/cmfstore/mediawiki-ext-gist"
   },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-kernel": "*"
+    "cmfstore/mediawiki-ext-kernel": "*"
   },
   "autoload": {
     "classmap": [
